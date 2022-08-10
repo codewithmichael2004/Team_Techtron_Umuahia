@@ -232,6 +232,10 @@ section:nth-child(even) {
     line-height: 2;
 }
 
+.services .box-container .box .btn {
+    font-size: medium;
+}
+
 .about .row {
     display: flex;
     align-items: center;
