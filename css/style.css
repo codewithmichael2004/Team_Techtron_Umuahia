@@ -45,6 +45,7 @@ section:nth-child(even) {
     letter-spacing: .4rem;
 }
 
+
 .heading span {
     text-transform: uppercase;
     color: var(--green);
@@ -232,6 +233,10 @@ section:nth-child(even) {
     line-height: 2;
 }
 
+.services .box-container .box .btn {
+    font-size: medium;
+}
+
 .about .row {
     display: flex;
     align-items: center;
@@ -263,6 +268,10 @@ section:nth-child(even) {
     padding: 1rem 0;
     font-size: 1.5rem;
     line-height: 1.8;
+}
+
+.about .row .content .btn {
+    font-size: medium;
 }
 
 .doctors .box-container {
@@ -363,6 +372,10 @@ section:nth-child(even) {
 
 .book .row form .btn {
     padding: 1rem 4rem;
+}
+
+.book .row form .btn {
+    font-size: medium;
 }
 
 .review .box-container {
