@@ -269,6 +269,10 @@ section:nth-child(even) {
     line-height: 1.8;
 }
 
+.about .row .content .btn {
+    font-size: medium;
+}
+
 .doctors .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -367,6 +371,10 @@ section:nth-child(even) {
 
 .book .row form .btn {
     padding: 1rem 4rem;
+}
+
+.book .row form .btn {
+    font-size: medium;
 }
 
 .review .box-container {
