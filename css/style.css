@@ -84,6 +84,9 @@ section:nth-child(even) {
     margin-left: 1rem;
 }
 
+.general{
+    margin-top: 30rem;
+}
 .header {
     padding: 2rem 9%;
     position: fixed;
