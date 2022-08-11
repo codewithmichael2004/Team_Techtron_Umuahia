@@ -45,10 +45,21 @@ section:nth-child(even) {
     letter-spacing: .4rem;
 }
 
-
 .heading span {
     text-transform: uppercase;
     color: var(--green);
+}
+
+#counter {
+    display: inline-block;
+}
+
+#userN {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn {
@@ -85,9 +96,10 @@ section:nth-child(even) {
     margin-left: 1rem;
 }
 
-.general{
+.general {
     margin-top: 30rem;
 }
+
 .header {
     padding: 2rem 9%;
     position: fixed;
@@ -549,7 +561,7 @@ section:nth-child(even) {
     color: var(--green);
 }
 
-.maq{
+.maq {
     background-color: var(--green);
     color: #fff;
     width: 100%;
