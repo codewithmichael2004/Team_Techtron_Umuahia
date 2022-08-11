@@ -545,6 +545,14 @@ section:nth-child(even) {
     color: var(--green);
 }
 
+.maq{
+    background-color: var(--green);
+    color: #fff;
+    width: 100%;
+    height: 80%;
+    font-size: large;
+}
+
 
 /* media queries  */
 
