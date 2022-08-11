@@ -3,7 +3,7 @@
     --green: #9234a2;
     --black: #444;
     --light-color: #777;
-    --box-shadow: .5rem .5rem 0 rgba(22, 160, 133, .2);
+    --box-shadow: .5rem .5rem 0 var(--green);
     --text-shadow: .4rem .4rem 0 rgba(0, 0, 0, .2);
     --border: .2rem solid var(--green);
 }
@@ -76,6 +76,7 @@ section:nth-child(even) {
 .btn:hover {
     background: var(--green);
     color: #fff;
+    box-shadow: none;
 }
 
 .btn:hover span {
