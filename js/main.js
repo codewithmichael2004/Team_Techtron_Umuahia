@@ -13,14 +13,9 @@ window.onscroll = () => {
 
 // console.log("home")
 
-const userName = window.prompt('Enter UserName');
+const userName = window.prompt('UserName');
 
 document.getElementById('userN').textContent = `Welcome ${userName}`;
-
-
-
-
-
 // Visitor Count Display 
 
 const countEl = document.getElementById('counter');

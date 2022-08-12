@@ -58,7 +58,6 @@ section:nth-child(even) {
     font-size: 1.7rem;
     color: var(--light-color);
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
