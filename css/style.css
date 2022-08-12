@@ -537,13 +537,13 @@ section:nth-child(even) {
     text-decoration: none;
 }
 
-.footer .box-container .box a i {
-    padding-right: .5rem;
-    color: var(--green);
-}
 
 .footer .box-container .box a:hover i {
     padding-right: 2rem;
+}
+
+.footer .box-container a:hover{
+    color: var(--green);
 }
 
 .footer .credit {
@@ -561,9 +561,13 @@ section:nth-child(even) {
 }
 
 marquee{
-    border: 1px solid;
     padding: 10px;
+    color: #fff;
+    font-size: large;
+    
 }
+
+
 
 /* media queries  */
 
