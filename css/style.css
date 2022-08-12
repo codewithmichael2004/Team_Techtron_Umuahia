@@ -56,7 +56,7 @@ section:nth-child(even) {
 
 #userN {
     font-size: 1.7rem;
-    color: var(--light-color);
+    color: var(--green);
     display: flex;
     align-items: center;
 }
