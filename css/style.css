@@ -560,14 +560,10 @@ section:nth-child(even) {
     color: var(--green);
 }
 
-.maq {
-    background-color: var(--green);
-    color: #fff;
-    width: 100%;
-    height: 80%;
-    font-size: large;
+marquee{
+    border: 1px solid;
+    padding: 10px;
 }
-
 
 /* media queries  */
 
@@ -608,7 +604,7 @@ section:nth-child(even) {
     }
     .header .navbar a {
         font-size: 2rem;
-        display: block;
+        display: flex;
         margin: 3.5rem;
     }
 }
